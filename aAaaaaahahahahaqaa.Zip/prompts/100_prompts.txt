@@ -1,0 +1,100 @@
+Chat Prompt 1: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 2: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 3: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 4: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 5: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 6: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 7: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 8: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 9: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 10: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 11: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 12: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 13: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 14: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 15: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 16: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 17: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 18: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 19: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 20: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 21: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 22: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 23: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 24: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 25: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 26: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 27: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 28: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 29: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 30: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 31: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 32: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 33: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 34: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 35: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 36: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 37: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 38: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 39: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 40: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 41: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 42: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 43: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 44: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 45: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 46: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 47: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 48: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 49: Give me a fun Ludo tip in a futuristic sassy tone.
+Chat Prompt 50: Give me a fun Ludo tip in a futuristic sassy tone.
+Ludo AI Prompt 1: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 2: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 3: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 4: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 5: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 6: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 7: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 8: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 9: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 10: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 11: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 12: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 13: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 14: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 15: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 16: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 17: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 18: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 19: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 20: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 21: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 22: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 23: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 24: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 25: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 26: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 27: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 28: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 29: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 30: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 31: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 32: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 33: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 34: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 35: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 36: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 37: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 38: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 39: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 40: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 41: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 42: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 43: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 44: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 45: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 46: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 47: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 48: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 49: Suggest the best move for player X given board state Y.
+Ludo AI Prompt 50: Suggest the best move for player X given board state Y.

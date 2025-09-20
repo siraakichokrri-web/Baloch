@@ -1,0 +1,23 @@
+workflows:
+  build_android:
+    name: Build Android APK
+    instance_type: mac_mini_m1
+    environment:
+      flutter: stable
+    scripts:
+      - name: Install dependencies
+        script: |
+          flutter pub get
+      - name: Set up Android SDK
+        script: |
+          yes | sdkmanager --licenses || true
+          sdkmanager "platform-tools" "platforms;android-33" "build-tools;33.0.2" || true
+      - name: Build debug apk
+        script: |
+          flutter build apk --debug
+    artifacts:
+      - build/app/outputs/flutter-apk/app-debug.apk
+    cache:
+      - key: pub-cache
+        paths:
+          - ~/.pub-cache

@@ -1,0 +1,55 @@
+workflows:
+  build_android:
+    name: Build Android
+    instance_type: mac_mini_m1
+    environment:
+      flutter: stable
+      xcode: latest
+    variables:
+      PACKAGE_NAME: com.siraakichokrri.birhmani_ai_ludo
+      BUILD_NUMBER: "{{timestamp}}"
+    scripts:
+      - name: Flutter doctor
+        script: |
+          flutter doctor -v
+      - name: Get packages
+        script: |
+          flutter pub get
+      - name: Run tests
+        script: |
+          flutter test || true
+      - name: Build Android AAB
+        script: |
+          flutter build appbundle --release
+    artifacts:
+      - build/app/outputs/**/*.aab
+      - build/app/outputs/**/*.apk
+    publishing:
+      email:
+        recipients:
+          - your.email@example.com
+
+  build_ios:
+    name: Build iOS
+    instance_type: mac_mini_m1
+    environment:
+      flutter: stable
+      xcode: latest
+    variables:
+      APP_STORE_APPLE_ID: your.apple.id
+      BUILD_NUMBER: "{{timestamp}}"
+    scripts:
+      - name: Get packages
+        script: |
+          flutter pub get
+      - name: Pod install
+        script: |
+          cd ios && pod install
+      - name: Build iOS IPA
+        script: |
+          flutter build ipa --release
+    artifacts:
+      - build/ios/*.ipa
+    publishing:
+      testflight:
+        enabled: true
