@@ -15,19 +15,4 @@ workflows:
     artifacts:
       - build/app/outputs/flutter-apk/app-release.apk
 
-  build_ios:
-    name: Build iOS
-    instance_type: mac_mini_m1
-    environment:
-      flutter: stable
-    scripts:
-      - name: Install deps
-        script: |
-          flutter pub get
-      - name: Build ipa
-        script: |
-          flutter build ipa --export-method ad-hoc
-    # Publishing to App Store Connect should use the publishing section with the
-    # exact allowed keys. If you previously had keys like `ipa_path` or
-    # `itc_team_id` under publishing/app_store_connect and got errors,
-    # move them to an `app_store_connect` publisher block as per the latest docs.
+  
