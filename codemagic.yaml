@@ -1,23 +1,20 @@
 workflows:
-  build_android:
-    name: Build Android APK
-    instance_type: mac_mini_m1
+  android-build:
+    name: Build Android
+    instance_type: mac_mini_m1  # Or 'linux_x2' for faster builds
     environment:
-      flutter: stable
+      groups:
+        - flutter_stable
     scripts:
-      - name: Install dependencies
-        script: |
-          flutter pub get
-      - name: Set up Android SDK
-        script: |
-          yes | sdkmanager --licenses || true
-          sdkmanager "platform-tools" "platforms;android-33" "build-tools;33.0.2" || true
-      - name: Build debug apk
-        script: |
-          flutter build apk --debug
+      - flutter doctor -v
+      - flutter pub get
+      - flutter test
+      - flutter build apk --release  # For APK
+      - flutter build appbundle --release  # For App Bundle
     artifacts:
-      - build/app/outputs/flutter-apk/app-debug.apk
-    cache:
-      - key: pub-cache
-        paths:
-          - ~/.pub-cache
+      - build/app/outputs/flutter-apk/app-release.apk  # APK file
+      - build/app/outputs/bundle/release/app-release.aab  # App Bundle
+    publishing:
+      email:
+        recipients:
+          - your.email@example.com  mkhanbirhmani@gmail.com
