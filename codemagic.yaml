@@ -1,21 +1,32 @@
 workflows:
-  android-build:
-    name: Build Android
-    instance_type: mac_mini_m1  # Or 'linux_x2' for faster builds
+  build_android_release:
+    name: Build Android Release
+    instance_type: mac_mini_m1
     environment:
-      groups:
-        - flutter_stable
+      flutter: stable
     scripts:
-      - flutter doctor -v
-      - flutter pub get
-      - flutter test
-      - flutter build apk --release  # For APK
-      - flutter build appbundle --release  # For App Bundle
+      - name: Clean project
+        script: flutter clean
+      - name: Upgrade dependencies
+        script: flutter pub upgrade --major-versions
+      - name: Get dependencies
+        script: flutter pub get
+      - name: Build Release APK
+        script: flutter build apk --release
     artifacts:
-      - build/app/outputs/flutter-apk/app-release.apk  # APK file
-      - build/app/outputs/bundle/release/app-release.aab  # App Bundle
-    publishing:
-      email:
-        recipients:
-          - siraakichokrri@gmail.com
-    
+      - build/app/outputs/flutter-apk/app-release.apk
+
+  build_android_debug:
+    name: Build Android Debug
+    instance_type: mac_mini_m1
+    environment:
+      flutter: stable
+    scripts:
+      - name: Clean project
+        script: flutter clean
+      - name: Get dependencies
+        script: flutter pub get
+      - name: Build Debug APK
+        script: flutter build apk --debug
+    artifacts:
+      - build/app/outputs/flutter-apk/app-debug.apk
